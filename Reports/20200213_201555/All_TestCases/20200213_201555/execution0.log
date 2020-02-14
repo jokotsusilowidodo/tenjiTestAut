@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758340</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/All_TestCases</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">All_TestCases</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/All_TestCases</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758357</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = joko - 192.168.0.240</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">joko - 192.168.0.240</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758358</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758358</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.240</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.240</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758361</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758364</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758390</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758397</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758672</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/01.OpenVideo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/01.OpenVideo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/01.OpenVideo</property>
+  <property name="source">\\Users\\joko\\Documents\\Project\\Automation\\Tenji\\Tenji\\Test Cases\\01.OpenVideo.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758893</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ui.Open.app()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T20:15:58</date>
+  <millis>1581599758903</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Open Apps</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:00</date>
+  <millis>1581599760693</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 52,233</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778278</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.16.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.16.0</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778279</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.16.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.16.0\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778299</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 317ba206</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">317ba206</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778299</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = OPPO RMX1811 (Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">OPPO RMX1811 (Android 9)</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778300</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = RMX1811</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">RMX1811</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778300</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = OPPO</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">OPPO</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778301</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778301</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:18</date>
+  <millis>1581599778305</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:20</date>
+  <millis>1581599780157</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/text_Header_Tenji&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781348</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599780167.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781355</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ui.Open.app is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781355</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ui.Open.app()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781355</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ui.VideoCheking.List()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781361</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check video was loaded</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:21</date>
+  <millis>1581599781796</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/TitleVideo_G12_Chemistry&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:22</date>
+  <millis>1581599782456</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/TitlleVideo_G12_Japanese_Classics&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:22</date>
+  <millis>1581599782690</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/TitleVideo_G12_English&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:22</date>
+  <millis>1581599782916</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/TitleVideo_G12_Math&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:23</date>
+  <millis>1581599783138</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/TitleVideo_G12_JapaneseHistory&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:24</date>
+  <millis>1581599784164</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599783141.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:24</date>
+  <millis>1581599784170</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click Video G12 Math</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:26</date>
+  <millis>1581599786290</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//Home/Video_List/TitleVideo_G12_Math&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:26</date>
+  <millis>1581599786512</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/VideoContent/text_Header_G12_English&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:27</date>
+  <millis>1581599787201</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599786515.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:27</date>
+  <millis>1581599787212</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check Video was Loaded</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:27</date>
+  <millis>1581599787450</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/Video_List/VideoContent/seekbar&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:30</date>
+  <millis>1581599790470</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:31</date>
+  <millis>1581599791348</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599790472.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:31</date>
+  <millis>1581599791354</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Play Video</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:37</date>
+  <millis>1581599797315</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//Home/Video_List/VideoContent/button_Play&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:47</date>
+  <millis>1581599807321</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808226</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599807324.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808233</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ui.VideoCheking.List is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808233</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ui.VideoCheking.List()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808234</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/01.OpenVideo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808234</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/01.OpenVideo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808240</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/02_SearchITB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/02_SearchITB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/02_SearchITB</property>
+  <property name="source">\\Users\\joko\\Documents\\Project\\Automation\\Tenji\\Tenji\\Test Cases\\02_SearchITB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808454</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Open Apps\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808455</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Open Apps</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808456</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Open Apps\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:48</date>
+  <millis>1581599808456</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(apk, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817560</millis>
+  <sequence>94</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.16.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.16.0</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817561</millis>
+  <sequence>95</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {\&amp;quot;value\&amp;quot;:{\&amp;quot;build\&amp;quot;:{\&amp;quot;version\&amp;quot;:\&amp;quot;1.16.0\&amp;quot;}},\&amp;quot;sessionId\&amp;quot;:null,\&amp;quot;status\&amp;quot;:0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumServerStatus">{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.16.0\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817578</millis>
+  <sequence>96</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 317ba206</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">317ba206</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817579</millis>
+  <sequence>97</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = OPPO RMX1811 (Android 9)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">OPPO RMX1811 (Android 9)</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817579</millis>
+  <sequence>98</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = RMX1811</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">RMX1811</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817579</millis>
+  <sequence>99</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = OPPO</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">OPPO</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817580</millis>
+  <sequence>100</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817580</millis>
+  <sequence>101</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">9</property>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817584</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817584</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(apk, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:16:57</date>
+  <millis>1581599817585</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;/Home/text_Header_Tenji\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:01</date>
+  <millis>1581599821576</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/text_Header_Tenji&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:01</date>
+  <millis>1581599821577</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;/Home/text_Header_Tenji\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:01</date>
+  <millis>1581599821577</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822564</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599821580.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822569</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822570</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Click More\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822570</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click More</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822571</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Click More\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:02</date>
+  <millis>1581599822571</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;/Home/button_MoreOption\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825354</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//Home/button_MoreOption&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825355</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;/Home/button_MoreOption\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825355</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;/Home/button_CampusSearch\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825590</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//Home/button_CampusSearch&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825591</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;/Home/button_CampusSearch\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:05</date>
+  <millis>1581599825591</millis>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826596</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599825593.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826601</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826601</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Click Search\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826602</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click Search</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826602</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Click Search\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:06</date>
+  <millis>1581599826602</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;/Home/button_CampusSearch\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:07</date>
+  <millis>1581599827590</millis>
+  <sequence>138</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//Home/button_CampusSearch&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:07</date>
+  <millis>1581599827591</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;/Home/button_CampusSearch\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:07</date>
+  <millis>1581599827591</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:16</date>
+  <millis>1581599836712</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//WebView/input_SearchKampus&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:16</date>
+  <millis>1581599836713</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:16</date>
+  <millis>1581599836713</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838180</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599836715.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838187</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838187</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Type ITB\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838188</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Type ITB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838189</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Type ITB\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:18</date>
+  <millis>1581599838190</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:21</date>
+  <millis>1581599841444</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//WebView/input_SearchKampus&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:21</date>
+  <millis>1581599841445</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:21</date>
+  <millis>1581599841445</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), \&amp;quot;itb\&amp;quot;, 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843538</millis>
+  <sequence>162</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;itb&amp;apos; has been set to element &amp;apos;Object Repository//WebView/input_SearchKampus&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843538</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;/WebView/input_SearchKampus\&amp;quot;), \&amp;quot;itb\&amp;quot;, 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843539</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : hideKeyboard()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843992</millis>
+  <sequence>165</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyboard is hidden</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843998</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : hideKeyboard()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:23</date>
+  <millis>1581599843998</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementExist(findTestObject(\&amp;quot;/WebView/sugest_ITB\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:25</date>
+  <millis>1581599845602</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//WebView/sugest_ITB&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:25</date>
+  <millis>1581599845603</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementExist(findTestObject(\&amp;quot;/WebView/sugest_ITB\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:25</date>
+  <millis>1581599845603</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846385</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599845606.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846393</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846394</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Search ITB\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846394</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search ITB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846395</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Search ITB\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:26</date>
+  <millis>1581599846395</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;/WebView/sugest_ITB\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848418</millis>
+  <sequence>183</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository//WebView/sugest_ITB&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848419</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;/WebView/sugest_ITB\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848419</millis>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(\&amp;quot;Check Web was loaded\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848420</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check Web was loaded</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848420</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(\&amp;quot;Check Web was loaded\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848421</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementExist(findTestObject(\&amp;quot;/WebView/Header_InstitutTeknologiBandung\&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848956</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository//WebView/Header_InstitutTeknologiBandung&amp;apos; is exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848957</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementExist(findTestObject(\&amp;quot;/WebView/Header_InstitutTeknologiBandung\&amp;quot;), 60)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:28</date>
+  <millis>1581599848957</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849707</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555/1581599848959.png</property>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849713</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849713</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/02_SearchITB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849713</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/02_SearchITB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849714</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849714</millis>
+  <sequence>201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:29</date>
+  <millis>1581599849914</millis>
+  <sequence>464</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850128</millis>
+  <sequence>465</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850128</millis>
+  <sequence>466</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: /Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850145</millis>
+  <sequence>467</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850147</millis>
+  <sequence>468</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: /Users/joko/Documents/Project/Automation/Tenji/Tenji/Reports/20200213_201555/All_TestCases/20200213_201555...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850402</millis>
+  <sequence>469</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850402</millis>
+  <sequence>471</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:17:30</date>
+  <millis>1581599850945</millis>
+  <sequence>472</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/All_TestCases</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

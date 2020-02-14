@@ -1,0 +1,98 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53039
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 53040
+[35m[Appium][39m   tmpDir: /var/folders/y3/q6njhf652b9fbvx6gw7jhq6h0000gn/T//Katalon/Appium/Temp1581600273208
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53039
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/joko/Downloads/TenjiApp (4)/TenjiApp.apk","noReset":true,"deviceName":"OPPO RMX1811 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"317ba206","systemPort":53051},"capabilities":{"firstMatch":[{"appium:app":"/Users/joko/Downloads/TenjiApp (4)/TenjiApp.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO RMX1811 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":53051,"appium:udid":"317ba206"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 111029a7-9b40-4707-ae51-4e29c69499f8
+[35m[BaseDriver][39m Using local app '/Users/joko/Downloads/TenjiApp (4)/TenjiApp.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/joko/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/joko/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 317ba206
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.quipper.tenji'
+[35m[ADB][39m Main activity name: 'com.quipper.tenji.MainActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/joko/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.quipper.tenji/com.quipper.tenji.MainActivity and waiting for 'com.quipper.tenji/com.quipper.tenji.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 111029a7-9b40-4707-ae51-4e29c69499f8 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10068 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8 [39m[32m200[39m [90m20 ms - 1102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8 [39m[32m200[39m [90m19 ms - 1102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (111029a7)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2004682-0dd5-460d-8200-7f35b1a2943d with 111029a7-9b40-4707-ae51-4e29c69499f8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source [39m[32m200[39m [90m1655 ms - 19724[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot [39m[32m200[39m [90m901 ms - 483942[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (111029a7)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2004682-0dd5-460d-8200-7f35b1a2943d with 111029a7-9b40-4707-ae51-4e29c69499f8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source [39m[32m200[39m [90m158 ms - 4438[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot [39m[32m200[39m [90m1430 ms - 897768[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (111029a7)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2004682-0dd5-460d-8200-7f35b1a2943d with 111029a7-9b40-4707-ae51-4e29c69499f8
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/source [39m[32m200[39m [90m1040 ms - 17858[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8/screenshot [39m[32m200[39m [90m1419 ms - 897744[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 111029a7-9b40-4707-ae51-4e29c69499f8 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/111029a7-9b40-4707-ae51-4e29c69499f8 [39m[32m200[39m [90m489 ms - 14[39m
+[35m[HTTP][39m [90m[39m

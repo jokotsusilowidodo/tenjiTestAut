@@ -1,0 +1,882 @@
+[35m[Appium][39m Welcome to Appium v1.16.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53563
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 53564
+[35m[Appium][39m   tmpDir: /var/folders/y3/q6njhf652b9fbvx6gw7jhq6h0000gn/T//Katalon/Appium/Temp1581600472875
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53563
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk","noReset":true,"deviceName":"OPPO RMX1811 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"317ba206","systemPort":53562},"capabilities":{"firstMatch":[{"appium:app":"/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO RMX1811 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":53562,"appium:udid":"317ba206"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[BaseDriver][39m Using local app '/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/joko/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/joko/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 317ba206
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.quipper.tenji'
+[35m[ADB][39m Main activity name: 'com.quipper.tenji.MainActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/joko/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.quipper.tenji/com.quipper.tenji.MainActivity and waiting for 'com.quipper.tenji/com.quipper.tenji.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session e8b03428-b1b5-432f-a3fc-675b7d1caac2 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11223 ms - 1214[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2 [39m[32m200[39m [90m19 ms - 1146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2 [39m[32m200[39m [90m15 ms - 1146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Tenji\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m1806 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/da9c0057-e8df-486c-9eec-a2c30d749bc9/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/da9c0057-e8df-486c-9eec-a2c30d749bc9/location [39m[32m200[39m [90m159 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts [39m[32m200[39m [90m70 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot [39m[32m200[39m [90m877 ms - 484294[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m45 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Chemistry\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m173 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/fa419a36-988c-493b-a5fa-a02a48afcb9f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/fa419a36-988c-493b-a5fa-a02a48afcb9f/location [39m[32m200[39m [90m108 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Japanese Classics\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m123 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/5ef6c328-e7a2-4d69-a979-ea7d0a70beee/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/5ef6c328-e7a2-4d69-a979-ea7d0a70beee/location [39m[32m200[39m [90m78 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m45 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 English\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m96 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/08bd8131-fb78-47c0-81ea-4684b5d3d1ec/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/08bd8131-fb78-47c0-81ea-4684b5d3d1ec/location [39m[32m200[39m [90m70 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m43 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Math\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m121 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/d83b6d32-fcc6-42bc-b8c8-032c90dcb6fc/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/d83b6d32-fcc6-42bc-b8c8-032c90dcb6fc/location [39m[32m200[39m [90m72 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m48 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Japanese History\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m104 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/83026d2b-21c4-4949-aacb-2f3081f77513/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/83026d2b-21c4-4949-aacb-2f3081f77513/location [39m[32m200[39m [90m78 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts [39m[32m200[39m [90m67 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot [39m[32m200[39m [90m835 ms - 484114[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m43 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Math\").resourceId(\"com.quipper.tenji:id/itemTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m867 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/1cf72dcb-7217-48e5-a1d5-476ccb5900ef/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/1cf72dcb-7217-48e5-a1d5-476ccb5900ef/location [39m[32m200[39m [90m58 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1cf72dcb-7217-48e5-a1d5-476ccb5900ef"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1cf72dcb-7217-48e5-a1d5-476ccb5900ef
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/touch/perform [39m[32m200[39m [90m1534 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m22 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"G12 Math\").resourceId(\"com.quipper.tenji:id/videoTitleTextView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m74 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/94513734-a22a-4de9-8096-efadc5be27e2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/94513734-a22a-4de9-8096-efadc5be27e2/location [39m[32m200[39m [90m52 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts [39m[32m200[39m [90m66 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot [39m[32m200[39m [90m625 ms - 36756[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m26 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.SeekBar\").resourceId(\"com.quipper.tenji:id/exo_progress\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m333 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/df56382c-4eef-4f2c-abec-481ec79d9978/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/df56382c-4eef-4f2c-abec-481ec79d9978/location [39m[32m200[39m [90m50 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts [39m[32m200[39m [90m65 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot [39m[32m200[39m [90m738 ms - 213044[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageButton\").resourceId(\"com.quipper.tenji:id/exo_play\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/elements [39m[32m200[39m [90m65 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/79b735aa-ef08-4544-b439-e0bd965b18f8/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e8b03428)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6597015c-f2d4-49eb-a367-96a59b9bac20 with e8b03428-b1b5-432f-a3fc-675b7d1caac2
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/element/79b735aa-ef08-4544-b439-e0bd965b18f8/location [39m[32m200[39m [90m50 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"79b735aa-ef08-4544-b439-e0bd965b18f8"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 79b735aa-ef08-4544-b439-e0bd965b18f8
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/touch/perform [39m[32m200[39m [90m5772 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/contexts [39m[32m200[39m [90m77 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/screenshot [39m[32m200[39m [90m736 ms - 205802[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e8b03428-b1b5-432f-a3fc-675b7d1caac2/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk","noReset":true,"deviceName":"OPPO RMX1811 (Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"317ba206","systemPort":53711},"capabilities":{"firstMatch":[{"appium:app":"/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"OPPO RMX1811 (Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":53711,"appium:udid":"317ba206"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[BaseDriver][39m Using local app '/Users/joko/Documents/Project/Automation/Tenji/Tenji/APK/TenjiApp.apk'
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 317ba206
+[35m[ADB][39m Using 'adb' from '/Users/joko/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.quipper.tenji'
+[35m[ADB][39m Main activity name: 'com.quipper.tenji.MainActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/joko/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.5.2
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Got an unexpected response with status undefined: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.quipper.tenji/com.quipper.tenji.MainActivity and waiting for 'com.quipper.tenji/com.quipper.tenji.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10546 ms - 1214[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7 [39m[32m200[39m [90m17 ms - 1146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7 [39m[32m200[39m [90m20 ms - 1146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m24 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Tenji\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m1492 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/d92df3d5-c9d3-4801-a7db-f4563c9a6860/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/d92df3d5-c9d3-4801-a7db-f4563c9a6860/location [39m[32m200[39m [90m118 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m70 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot [39m[32m200[39m [90m868 ms - 484294[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m44 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m412 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/d8e138aa-7ba8-47ab-8104-5c955c41c7e0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/d8e138aa-7ba8-47ab-8104-5c955c41c7e0/location [39m[32m200[39m [90m86 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d8e138aa-7ba8-47ab-8104-5c955c41c7e0"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: d8e138aa-7ba8-47ab-8104-5c955c41c7e0
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform [39m[32m200[39m [90m1438 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m40 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Campus Search\").resourceId(\"com.quipper.tenji:id/title\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/fcc83b06-bcb7-4cad-9a16-0092b6cdcf1f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/fcc83b06-bcb7-4cad-9a16-0092b6cdcf1f/location [39m[32m200[39m [90m51 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m73 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot [39m[32m200[39m [90m853 ms - 492258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m42 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Campus Search\").resourceId(\"com.quipper.tenji:id/title\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m80 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/555fddee-eacc-4ebd-addd-cf2a7fa3e55e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/555fddee-eacc-4ebd-addd-cf2a7fa3e55e/location [39m[32m200[39m [90m50 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"555fddee-eacc-4ebd-addd-cf2a7fa3e55e"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 555fddee-eacc-4ebd-addd-cf2a7fa3e55e
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform [39m[32m200[39m [90m781 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m21 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m1110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m802 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m583 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m2767 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/9296d81f-0cc1-4492-9715-fd83bf262f40/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/9296d81f-0cc1-4492-9715-fd83bf262f40/location [39m[32m200[39m [90m167 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m75 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot [39m[32m200[39m [90m1166 ms - 688848[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m33 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m503 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/7e4b369c-3d64-4e64-9c9c-883a103c4011/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/7e4b369c-3d64-4e64-9c9c-883a103c4011/location [39m[32m200[39m [90m171 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"7e4b369c-3d64-4e64-9c9c-883a103c4011"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 7e4b369c-3d64-4e64-9c9c-883a103c4011
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform [39m[32m200[39m [90m1724 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m28 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m325 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/location [39m[32m200[39m [90m592 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/clear[39m
+[35m[HTTP][39m [90m{"id":"6f122730-3d3f-4dad-8d79-d0205e3c3f66"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/clear [39m[32m200[39m [90m111 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/value[39m
+[35m[HTTP][39m [90m{"id":"6f122730-3d3f-4dad-8d79-d0205e3c3f66","text":"itb","value":["i","t","b"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/6f122730-3d3f-4dad-8d79-d0205e3c3f66/value [39m[32m200[39m [90m897 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m90 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/appium/device/hide_keyboard[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Keyboard has no UI; no closing necessary
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/appium/device/hide_keyboard [39m[32m200[39m [90m247 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m28 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Institut Teknologi Bandung (ITB)\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m955 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/b7b1c37a-0d1d-4067-9f28-b895e5a2109d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/b7b1c37a-0d1d-4067-9f28-b895e5a2109d/location [39m[32m200[39m [90m1168 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m55 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot [39m[32m200[39m [90m634 ms - 136044[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Institut Teknologi Bandung (ITB)\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m750 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/57936929-2ee2-4798-be41-8558c342e184/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/57936929-2ee2-4798-be41-8558c342e184/location [39m[32m200[39m [90m86 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"57936929-2ee2-4798-be41-8558c342e184"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 57936929-2ee2-4798-be41-8558c342e184
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/touch/perform [39m[32m200[39m [90m1621 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m23 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Institut Teknologi Bandung (ITB)\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m281 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/32d7bef9-d653-4001-b3b2-aa4dd3861659/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/32d7bef9-d653-4001-b3b2-aa4dd3861659/location [39m[32m200[39m [90m90 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/window/rect [39m[32m200[39m [90m20 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Institut Teknologi Bandung (ITB)\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/elements [39m[32m200[39m [90m245 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/83a6a862-805c-4bae-91a1-d9a350901d4d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2df84e24)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId e9e6a01f-7790-483c-ab80-415eccd79711 with 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element/83a6a862-805c-4bae-91a1-d9a350901d4d/location [39m[32m200[39m [90m87 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m51 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Institut Teknologi Bandung (ITB)\"))"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/element [39m[32m200[39m [90m192 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/contexts [39m[32m200[39m [90m60 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/screenshot [39m[32m200[39m [90m675 ms - 85374[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 2df84e24-9c0d-47a6-a3c9-7704fa00fdd7 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/2df84e24-9c0d-47a6-a3c9-7704fa00fdd7 [39m[32m200[39m [90m472 ms - 14[39m
+[35m[HTTP][39m [90m[39m

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All_TestCases,,,,2020-02-13 20:27:52,2020-02-13 20:29:13,1m - 21.963s,INCOMPLETE
+,,,,,,,
+Test Cases/01.OpenVideo,,,,2020-02-13 20:27:52,2020-02-13 20:28:36,44.204s,PASSED
+ui.Open.app(),,,,2020-02-13 20:27:52,2020-02-13 20:28:09,16.755s,PASSED
+ui.VideoCheking.List(),,,,2020-02-13 20:28:09,2020-02-13 20:28:36,27.233s,PASSED
+,,,,,,,
+Test Cases/02.Search,,,,2020-02-13 20:28:36,2020-02-13 20:29:13,37.436s,PASSED
+ui.Open.app(),,,,2020-02-13 20:28:36,2020-02-13 20:28:49,13.330s,PASSED
+ui.search.itb(),,,,2020-02-13 20:28:49,2020-02-13 20:29:13,24.005s,PASSED

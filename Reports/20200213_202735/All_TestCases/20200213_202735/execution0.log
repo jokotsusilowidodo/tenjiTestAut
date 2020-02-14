@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457792</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/All_TestCases</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">All_TestCases</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/All_TestCases</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457813</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = joko - 192.168.0.240</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">joko - 192.168.0.240</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457813</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457814</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.240</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.240</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457815</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457822</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457856</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>This Katalon Studio version has been deprecated. Please upgrade Katalon Studio to the latest version.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:27:37</date>
+  <millis>1581600457858</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : beforeExportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:27:38</date>
+  <millis>1581600458129</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/01.OpenVideo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/01.OpenVideo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/01.OpenVideo</property>
+  <property name="source">\\Users\\joko\\Documents\\Project\\Automation\\Tenji\\Tenji\\Test Cases\\01.OpenVideo.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:38</date>
+  <millis>1581600458500</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ui.Open.app()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-13T20:27:38</date>
+  <millis>1581600458515</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Open Apps</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-13T20:27:40</date>
+  <millis>1581600460211</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 53,415</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>

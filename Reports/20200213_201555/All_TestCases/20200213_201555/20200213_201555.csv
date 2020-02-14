@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All_TestCases,,,,2020-02-13 20:15:58,2020-02-13 20:17:29,1m - 31.373s,INCOMPLETE
+,,,,,,,
+Test Cases/01.OpenVideo,,,,2020-02-13 20:15:58,2020-02-13 20:16:48,49.562s,PASSED
+ui.Open.app(),,,,2020-02-13 20:15:58,2020-02-13 20:16:21,22.462s,PASSED
+ui.VideoCheking.List(),,,,2020-02-13 20:16:21,2020-02-13 20:16:48,26.878s,PASSED
+,,,,,,,
+Test Cases/02_SearchITB,,,,2020-02-13 20:16:48,2020-02-13 20:17:29,41.473s,PASSED
+"logInfo(""Open Apps"")",,,,2020-02-13 20:16:48,2020-02-13 20:16:48,0.002s,PASSED
+"startApplication(apk, false)",,,,2020-02-13 20:16:48,2020-02-13 20:16:57,9.128s,PASSED
+"waitForElementPresent(findTestObject(""/Home/text_Header_Tenji""), 10)",,,,2020-02-13 20:16:57,2020-02-13 20:17:01,3.992s,PASSED
+takeScreenshot(),,,,2020-02-13 20:17:01,2020-02-13 20:17:02,0.992s,PASSED
+"logInfo(""Click More"")",,,,2020-02-13 20:17:02,2020-02-13 20:17:02,0.001s,PASSED
+"tap(findTestObject(""/Home/button_MoreOption""), 10)",,,,2020-02-13 20:17:02,2020-02-13 20:17:05,2.784s,PASSED
+"waitForElementPresent(findTestObject(""/Home/button_CampusSearch""), 10)",,,,2020-02-13 20:17:05,2020-02-13 20:17:05,0.236s,PASSED
+takeScreenshot(),,,,2020-02-13 20:17:05,2020-02-13 20:17:06,1.010s,PASSED
+"logInfo(""Click Search"")",,,,2020-02-13 20:17:06,2020-02-13 20:17:06,0.001s,PASSED
+"tap(findTestObject(""/Home/button_CampusSearch""), 10)",,,,2020-02-13 20:17:06,2020-02-13 20:17:07,0.989s,PASSED
+"waitForElementPresent(findTestObject(""/WebView/input_SearchKampus""), 10)",,,,2020-02-13 20:17:07,2020-02-13 20:17:16,9.122s,PASSED
+takeScreenshot(),,,,2020-02-13 20:17:16,2020-02-13 20:17:18,1.474s,PASSED
+"logInfo(""Type ITB"")",,,,2020-02-13 20:17:18,2020-02-13 20:17:18,0.002s,PASSED
+"tap(findTestObject(""/WebView/input_SearchKampus""), 10)",,,,2020-02-13 20:17:18,2020-02-13 20:17:21,3.255s,PASSED
+"setText(findTestObject(""/WebView/input_SearchKampus""), ""itb"", 10)",,,,2020-02-13 20:17:21,2020-02-13 20:17:23,2.093s,PASSED
+hideKeyboard(),,,,2020-02-13 20:17:23,2020-02-13 20:17:23,0.459s,PASSED
+"verifyElementExist(findTestObject(""/WebView/sugest_ITB""), 10)",,,,2020-02-13 20:17:23,2020-02-13 20:17:25,1.605s,PASSED
+takeScreenshot(),,,,2020-02-13 20:17:25,2020-02-13 20:17:26,0.790s,PASSED
+"logInfo(""Search ITB"")",,,,2020-02-13 20:17:26,2020-02-13 20:17:26,0.001s,PASSED
+"tap(findTestObject(""/WebView/sugest_ITB""), 10)",,,,2020-02-13 20:17:26,2020-02-13 20:17:28,2.024s,PASSED
+"logInfo(""Check Web was loaded"")",,,,2020-02-13 20:17:28,2020-02-13 20:17:28,0.001s,PASSED
+"verifyElementExist(findTestObject(""/WebView/Header_InstitutTeknologiBandung""), 60)",,,,2020-02-13 20:17:28,2020-02-13 20:17:28,0.536s,PASSED
+takeScreenshot(),,,,2020-02-13 20:17:28,2020-02-13 20:17:29,0.756s,PASSED
